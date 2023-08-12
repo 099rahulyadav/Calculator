@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 12px;
+    border: 0;
+    background-color: rgb(236, 189, 172);
+}
+.container{
+    margin: 90px auto;
+    min-height: 450px;
+    max-width: 480px;
+    border: 10px solid black;
+    border-radius: 1.5%;
+}
+.cal-screen{
+    margin: 3px;
+    border: 2px solid black;
+    min-height:60px;
+    height: 5.5rem;
+}
+#cal-space{
+    font-size: xx-large;
+    border: 3px solid red;
+    height:5rem;
+    overflow: hidden;
+    background-color: rgb(0, 5, 9);
+}
+.cal-screen p{
+    color: aliceblue;
+}
+.cal-btn{
+    border: 2px solid black;
+    margin: 3px;
+    min-height: 380px;
+}
+.row{
+    border: 2px solid green;
+    min-height: 60px;
+    height:4rem;
+    width: auto;
+    margin-top: 1px;
+}
+.column{
+    display: flex;
+}
+.column div{
+    border: 4px solid rgb(10, 155, 184);
+    height: 4.5rem;
+    width: 9.4rem;
+    text-align: center;
+    background-color: aliceblue;
+}
+span{
+    height: 5rem;
+    width: 15rem;
+    background-color:transparent;
+    font-size: xx-large;
+    font-weight:600;
+    user-select:none
+}
+.column div:hover{
+    background-color: grey;
+}
+
+@media only screen and (max-width:670px){
+    span{
+        font-size: large;
+    }
+}
